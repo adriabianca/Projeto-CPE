@@ -1,0 +1,23 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "JogoPresets",
+            "displayName": "Custom configure preset",
+            "description": "Sets Visual Studio 17 2022 generator, build and install directory",
+            "generator": "Visual Studio 17 2022",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "environment": {
+              "CC": "C:/MinGW/bin/gcc.exe",
+              "CXX":"C:/MinGW/bin/g++.exe"
+            },
+            "cacheVariables": {
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "YES",
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_TOOLCHAIN_FILE":{
+                    "value": "C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            }
+            }
+        }
+    ]
+}
