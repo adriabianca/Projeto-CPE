@@ -1,5 +1,9 @@
 # Projeto-CPE
-Projeto computacional da matéria de Computação para Engenharia da UnB
+Projeto computacional da matéria de Computação para Engenharia da UnB.
+
+O projeto é um protótipo de jogo conhecido como Batalha Naval, cujo os jogadores devem tentar afundar as embarcações do seu oponente. Vence quem afunda todas as embarcações. Nesse sentido, o jogo tem dois modos de operação: Single Player em que o usuário tenta adivinhar onde estão as embarcações e o VS CPU no qual o usuário joga contra o computador.
+
+Contudo, por ser um protótipo algumas telas de jogos estão simplificadas. Mas, nada que afete a experiência do usuário. Abaixo, está como compilar o programa do jogo.
 
 Para compilar o programa no VSCode será necessário ter instalado as ferramentas *vcpkg*, para fazer download de bibliotecas, no caso o *raylib*, *CMake*, o gerenciador de build do projeto, e o generator *Visual Studio 17 2022*(Windows) ou *Unix Makefiles*(Mac), para gerar os arquivos iniciais de build.
 
